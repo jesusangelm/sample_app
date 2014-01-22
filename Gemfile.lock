@@ -30,6 +30,8 @@ GEM
     better_errors (1.1.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
+    bootstrap-sass (2.3.2.0)
+      sass (~> 3.2)
     builder (3.1.4)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -71,6 +73,8 @@ GEM
       mini_portile (~> 0.5.0)
     pg (0.15.1)
     polyglot (0.3.3)
+    quiet_assets (1.0.2)
+      railties (>= 3.1, < 5.0)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -152,11 +156,13 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors
+  bootstrap-sass (= 2.3.2.0)
   capybara (= 2.1.0)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
   pg (= 0.15.1)
+  quiet_assets
   rails (= 4.0.2)
   rails_12factor (= 0.0.2)
   rspec-rails (= 2.13.1)
