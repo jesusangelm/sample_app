@@ -21,6 +21,7 @@ group :development, :test do
   gem "rspec-rails", "2.13.1"
   gem "better_errors"
   gem "quiet_assets"
+  gem "puma", "2.7.1"
 end
 
 group :test do
