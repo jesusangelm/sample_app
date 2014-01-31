@@ -13,6 +13,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
+gem "faker", "1.1.2"
 
 group :doc do
   gem 'sdoc', require: false
